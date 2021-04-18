@@ -27,7 +27,7 @@ public class Comment {
     }
 
     @RequestMapping(value="/editComment",method = RequestMethod.PATCH)
-    public ResponseEntity<Comment> modifyComment(@RequestParam int id{
+    public ResponseEntity<Comment> modifyComment(@RequestParam int id){
 
         return null;
     }
