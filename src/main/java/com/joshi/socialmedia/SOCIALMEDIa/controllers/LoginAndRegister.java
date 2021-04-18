@@ -32,9 +32,8 @@ public class LoginAndRegister {
         else {
             return new ResponseEntity<>("USER is succesfully found in database",HttpStatus.ACCEPTED);
         }
-
-       
     }
+
 
     @RequestMapping(value="/register",method = RequestMethod.POST)
     public ResponseEntity<String> isRegister(@Valid @RequestBody USER user){
